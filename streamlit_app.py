@@ -148,3 +148,19 @@ if model_type == "Long-term (ARIMA)":
             "The shaded confidence band widens as the horizon increases. "
             "Use 60‑ and 90‑day forecasts as scenario ranges rather than precise predictions."
         )
+
+
+
+
+
+st.markdown("---")
+st.markdown(
+    """
+    ⚠️ **Friendly Disclaimer**  
+    This app is just a prototype and is meant for learning, exploring, and having a bit of fun with data.  
+    The forecasts are based on historical patterns and math models — they’re **not financial advice** and definitely not a crystal ball 🔮.  
+    Please don’t make trading or investment decisions based solely on what you see here.  
+    Always do your own research (and maybe chat with a real financial advisor if money’s on the line).  
+    """,
+    unsafe_allow_html=True
+)
