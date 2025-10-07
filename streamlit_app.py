@@ -25,7 +25,7 @@ metal = st.sidebar.selectbox(
 )
 model_type = st.sidebar.radio(
     "Model",
-    ["Raw Data", "Long-term (ARIMA)"]
+    ["Historical Data only", "Long-term (ARIMA)"]
 )
 
  
@@ -164,3 +164,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
