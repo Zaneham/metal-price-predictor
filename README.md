@@ -13,7 +13,7 @@ A Streamlit app that pulls 5 years of daily price data for major metals (Gold, S
 ---
 
 ##  Try it out
-👉 [Launch the app here]([https://your-deployment-link.com](https://metal-price-predictor.streamlit.app/))  
+👉 [Launch the app here]([https://metal-price-predictor.streamlit.app/]))  
 
 
 ---
