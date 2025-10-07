@@ -4,4 +4,5 @@ yfinance
 statsmodels
 numpy
 scikit-learn
+plotly
 tensorflow
