@@ -14,7 +14,7 @@ A Streamlit app that pulls 5 years of daily price data for major metals (Gold, S
 
 ## 🔗 Try it out
 👉 [Launch the app here](https://your-deployment-link.com)  
-*(replace with your actual Streamlit Cloud / Hugging Face / Render link once deployed)*
+
 
 ---
 
