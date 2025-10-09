@@ -17,13 +17,14 @@ TICKERS = {
     "Aluminum": "ALI=F",
 }
 
-@st.cache_data(show_spinner="Downloading data...")
-def get_price_data(metal: str, period: str = "5y", interval: str = "1d") -> pd.Series:
-    """Fetch and cache closing prices for a given metal."""
+@st.cache_data(ttl=3600, show_spinner="Fetching data...")
+def get_price_data(metal: str, period="5y", interval="1d") -> pd.Series:
     ticker = TICKERS[metal]
-    df = yf.download(ticker, period=period, interval=interval, progress=False)
+    df = yf.download(
+        ticker,
+        period=period,
+        interval=interval,
+        auto_adjust=False,
+        progress=False
+    )
     return df["Close"].dropna()
-
-
-
-#This function brings out the closing frice for various metals
